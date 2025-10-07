@@ -39,6 +39,7 @@ export default defineConfig((/* ctx */) => {
       target: {
         browser: [ 'es2022', 'firefox115', 'chrome115', 'safari14' ],
         node: 'node20'
+        
       },
 
       typescript: {
@@ -54,7 +55,7 @@ export default defineConfig((/* ctx */) => {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/6704101306-kongkiat-jirawatthanakhunakorn/',
       // analyze: true,
       // env: {},
       // rawDefine: {}
